@@ -30,4 +30,4 @@ Bu proje [MIT lisansı](LICENSE) altında lisanslanmıştır.
 
  <img src="/screenshots/screen-shot-2.jpg">
 
- <img src="/screenshots/screen-shot-2.jpg">
+ <img src="/screenshots/screen-shot-3.jpg">
