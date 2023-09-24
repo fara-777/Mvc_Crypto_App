@@ -1,0 +1,84 @@
+.container {
+  margin: 50px;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  gap: 30px;
+  img {
+    width: 100px;
+  }
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+
+  input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 8px;
+    border: none;
+    background: rgb(76, 76, 76);
+    color: #fff;
+  }
+  &:focus {
+    border: 1px solid#646cff;
+  }
+  .check-wrapper {
+    display: flex;
+    gap: 10px;
+    //justify-content: space-between;
+
+    flex-direction: column;
+  }
+  .check {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    input {
+      width: 30px;
+      height: 20px;
+    }
+  }
+  .error {
+    outline: 1px solid rgb(255, 75, 75);
+  }
+  p {
+    color: rgb(255, 75, 75);
+  }
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+
+  h3 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  img {
+    height: 50px;
+  }
+  div {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+}
+
+.coin-name {
+  margin: 2px;
+  color: gray;
+  font-size: 12px;
+}
+span {
+  cursor: pointer;
+}
